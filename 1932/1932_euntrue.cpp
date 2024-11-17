@@ -37,17 +37,6 @@ int solution(vector<vector<int>> triangle) {
 
 int main()
 {
-    // 갈 수 있는 루트는 내 번호, 내번호 + 1 번 까지임 맞나?
-
-    vector<vector<int>> param = {
-          {7},            
-         {3,8},          
-        {8,1,0},
-       {2,7,4,4},
-      {4,5,2,6,5},
-    };
-
     solution(param);
-
     return 0;
 }
